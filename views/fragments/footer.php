@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<h4>THIS IS THE FOOTER FRAGMENT</h4>
+	<!-- Close the 'content' div -->
+	</div>
+	<div id="footer">
+		<h4>THIS IS THE FOOTER FRAGMENT</h4>	
+	</div>
 </body>
 </html>

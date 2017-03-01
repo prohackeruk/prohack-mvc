@@ -5,7 +5,9 @@
 		}
 
 		public function render($name) {
+			require 'views/header.php';
 			require 'views/' . $name;
+			require 'views/footer.php';
 		}
 	}
 ?>
