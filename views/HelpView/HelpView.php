@@ -12,6 +12,6 @@
 	<title>Help</title>
 </head>
 <body>
-<h2>Help Page</h2>
+<h2>Help View</h2>
 </body>
 </html>

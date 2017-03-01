@@ -12,6 +12,6 @@
 	<title>Index</title>
 </head>
 <body>
-<h2>Index Page</h2>
+<h2>Index View</h2>
 </body>
 </html>

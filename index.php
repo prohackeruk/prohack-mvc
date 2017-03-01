@@ -1,7 +1,8 @@
 <?php
 	// Use an autoloader
 	require 'libs/Bootstrap.php';
-	require 'controllers/Controller.php';
+	require 'models/Model.php';
 	require 'views/View.php';
+	require 'controllers/Controller.php';
 	$app = new Bootstrap();
 ?>
