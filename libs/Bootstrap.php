@@ -2,7 +2,14 @@
 	class Bootstrap {
 		function __construct() {
 			// Get, trim and explode the url into an array
-			$url = explode('/', rtrim($_GET['url'], '/'));
+			$url = isset($_GET['url']) ? $_GET['url'] : null;
+			$url = explode('/', rtrim($url, '/'));
+
+			if (empty($url[0])) {
+				require 'controllers/IndexController.php';
+				$controller = new IndexController();
+				return false;
+			}
 
 			$file = 'controllers/' . $url[0] . '.php';
 			if (file_exists($file)) {
